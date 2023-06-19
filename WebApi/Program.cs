@@ -5,10 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<ChallengeService>();
-builder.Services.AddScoped<GroupService>();
-builder.Services.AddScoped<Participant>();
-builder.Services.AddScoped<Location>();
+builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<ProductService>();
 
 
 var connaction= builder.Configuration.GetConnectionString("DefaultConnection");

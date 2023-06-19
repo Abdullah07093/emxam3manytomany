@@ -13,11 +13,11 @@ public CustomerController(CustomerController customerController)
 }
 
 
-  [HttpGet("GetCustomers")]
+//   [HttpGet("GetCustomers")]
 
-public async Task<List<Country>> GetCustomers(){
-    return await countryService.GetCustomers();
-}
+// public async Task<List<Country>> GetCustomers(){
+//     return await countryService.GetCustomers();
+// }
 
 
 }

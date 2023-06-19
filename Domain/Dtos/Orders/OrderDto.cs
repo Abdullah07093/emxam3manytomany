@@ -1,7 +1,7 @@
 public class OrderDto
 {
         public int Id { get; set; }
-        public TimeStamp OrderPlaced { get; set; }
-        public TimeStamp OrderFulFilled { get; set; }
+        public DateTime OrderPlaced { get; set; }
+        public DateTime OrderFulFilled { get; set; }
 
 }

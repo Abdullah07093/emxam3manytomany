@@ -15,8 +15,8 @@ public OrderController(OrderController orderController)
 
   [HttpGet("GetOrders")]
 
-public async Task<List<Country>> GetOrders(){
-    return await countryService.GetOrders();
+public async Task<List<Order>> GetOrders(){
+    return await orderController.GetOrders();
 }
 
 }
