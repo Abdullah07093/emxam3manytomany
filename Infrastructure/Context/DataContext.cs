@@ -6,9 +6,8 @@ public class DataContext:DbContext
     {
         
     }
-    public DbSet<Costomer> Costomers{get;set;}
+    public DbSet<Customer> Costomers{get;set;}
     public DbSet<Order> Orders{get;set;}
-    public DbSet<OrderDitail> OrderDitails{get;set;}
     public DbSet<Product> Products{get;set;}
    
 }
